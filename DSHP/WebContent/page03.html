@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>ご注文</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" >　
+				<div class="logo"><a href="index.html"><img width="45"height="45"src="images/logo.jpg" alt="" />main	</a></div>
+				<a href="#menu">メニュー</a>
+			</header>
+			
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="src/ds.pdf" target="_blank">PDF総合カタログ</a></li>
+					<li><a href="page01.html">お問い合わせ</a></li>
+					<li><a href="page02.html">カタログ請求</a></li>
+					<li><a href="page03.html">注文</a></li>
+					<li><a href="page04.html">会社概要</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+			
+
+		<!-- Main -->
+			<div id="main">
+				<!-- Section -->
+					<section class="wrapper">
+						<div class="inner">
+							<header class="align-center">
+								<h3>ご注文</h3>
+								<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
+								<p>*は必ず記入してください</p>
+							<!--	<div class="box" > -->
+									<div class="table-wrapper">
+										<table class="alt">
+											<form name="f" method="post" action="order.do">
+												<tbody>
+													<tr>
+														<td><b>*</b>御社名【お名前】（全角）</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="companyname" id="companynamename" value="" placeholder="name" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>御社名カナ</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="companynamekatakana" id="companynamekatakana" value="" placeholder="name-katakana" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>担当者名</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="name" id="name" value="" placeholder="name" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>担当者名カナ</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="namekatakana" id="namekatakana" value="" placeholder="name-katakana" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>メール</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="mail" id="mail" value="" placeholder="e-mail" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>メール確認</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="mail2" id="mail2" value="" placeholder="e-mail" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>電話</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="phone" id="phone" value="" placeholder="phone" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>ファクス</td>
+														<td>
+															<div class="8u$ 12u$">
+															<input type="text" name="fax" id="fax" value="" placeholder="Fax" />
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>住所</td>
+														<td>
+															<div class="row uniform">
+															<div class="3u 12u$(xsmall)">
+																郵便番号
+															</div>
+															<div class="3u 12u$(xsmall)">
+																<input type="text" name="addressno1" id="addressno1" value="" placeholder="" /> 
+															</div>
+															<div class="1u 12u$(xsmall)">
+																―
+															</div>
+															<div class="3u$ 12u$(xsmall)">
+																<input type="email" name="addressno2" id="addressno2" value="" placeholder="" />
+															</div>
+															<div class="3u 12u$(xsmall)">
+																都道府県
+															</div>
+															<div class="7u$ 12u$(xsmall)">
+																<div class="select-wrapper">
+																	<select name="kenn" id="kenn">
+																		<option value="0">- Category -</option>
+																		<option value="1">東京</option>
+																		<option value="2">埼玉</option>
+																		<option value="3">千葉</option>
+																		<option value="4">茨城</option>
+																	</select>
+																</div>
+															</div>
+															<div class="4u 12u$(xsmall)">
+																市区村町・番地
+															</div>
+															<div class="8u$ 12u$">
+																<input type="text" name="addressnumber" id="addressnumber" value="" placeholder="番地" />
+															</div>
+															<div class="4u 12u$(xsmall)">
+																マンション・建物
+															</div>
+															<div class="8u$ 12u$">
+																<input type="text" name="apt" id="apt" value="" placeholder="建物：マンション" />
+															</div>
+															
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><b>*</b>商品名および数量</td>
+														<td>
+															<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+														</td>
+													</tr>
+													
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="1"></td>
+														<td align="right"><a href="#" onclick="javascript:sendIt3();" ><input type="button" value="送信" /></td>
+													</tr>
+												</tfoot>
+											</form>
+										</table>
+									</div>
+									
+							<!-- 	</div> -->
+								
+							</header>
+						</div>
+					</section>
+					
+					
+					<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<header class="align-center">
+								<h2>coment</h2>
+								<p>coment.</p>
+							</header>
+							<div class="flex flex-4">
+								<div class="col align-center">
+									<div class="image round fit">
+										<a href="page01.html" class="link"><img src="images/pic01.jpg" alt="" /></a>
+									</div>
+									<p>coment </p>
+									<a href="page01.html" class="button">page01移動</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<a href="page02.html" class="link"><img src="images/pic02.jpg" alt="" /></a>
+									</div>
+									<p>coment </p>
+									<a href="page02.html" class="button">page02移動</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<a href="page03.html" class="link"><img src="images/pic03.jpg" alt="" /></a>
+									</div>
+									<p>coment </p>
+									<a href="page03.html" class="button">page03移動</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<a href="page04.html" class="link"><img src="images/pic04.jpg" alt="" /></a>
+									</div>
+									<p>coment </p>
+									<a href="page04.html" class="button">page04移動</a>
+								</div>
+							</div>
+						</div>
+					</section>
+			</div>
+
+
+	
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/mailcheck.js"></script>
+		<!-- Foot navi -->
+		<div id="floatArea">
+			<a href="index.html#PRODUCT1" class="button big scrolly">PRODUCT1移動</a>
+			<a href="index.html#PRODUCT2" class="button big scrolly">PRODUCT2移動</a>
+			<a href="index.html#PRODUCT3" class="button big scrolly">PRODUCT3移動</a>
+			<a href="index.html#PRODUCT4" class="button big scrolly">PRODUCT4移動</a>
+			<a href="index.html#PRODUCT5" class="button big scrolly">PRODUCT5移動</a>
+			<a href="index.html#PRODUCT6" class="button big scrolly">PRODUCT6移動</a>
+			<p>&copy; Untitled. All rights reserved. Design: <a href="index.html">TEMPLATED</a>. Images: <a href="index.html">Unsplash</a>.</p>
+		</div>
+	</body>
+</html>
